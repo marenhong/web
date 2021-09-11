@@ -51,3 +51,27 @@ button.shinydarken {
 button:active {
   top: 2px;
 }
+
+@-webkit-keyframes shine {
+  0% {
+    background-position-x: 400%;
+  }
+  50% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: -400%;
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: 400%;
+  }
+  50% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: -400%;
+  }
+}
